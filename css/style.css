@@ -396,15 +396,20 @@ h3 {
   background: none !important;
   color: #f00 ;
 }
+.mobile-wrapper {
+  height: 2000px;
+}
 .mobile {
-  margin-top: 100px;
-  font-size: 40px;
+  font-size: 80px;
 }
 .mobile a {
   color: #4C4A4A;
 }
 .mobile a:hover {
-  color: #fff;
+  text-decoration: underline;
+}
+.mobile li {
+  margin: 40px 0;
 }
 a.pagelink {
   color: #000 !important;
@@ -837,6 +842,7 @@ gallery */
   padding: 30px 0;
   background: #e8f5ff;
   width: 100%;
+  margin-bottom: 10px;
 }
 .gallery-box .gallery-button {
   border-radius: 0;
