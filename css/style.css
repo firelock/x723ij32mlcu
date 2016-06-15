@@ -399,17 +399,15 @@ h3 {
 .mobile-wrapper {
   height: 2000px;
 }
-.mobile {
-  font-size: 80px;
-}
-.mobile a {
-  color: #4C4A4A;
-}
-.mobile a:hover {
-  text-decoration: underline;
-}
 .mobile li {
   margin: 40px 0;
+}
+.mobile li a {
+  font-size: 80px;
+  color: #4C4A4A;
+}
+.mobile li a:hover {
+  text-decoration: underline;
 }
 a.pagelink {
   color: #000 !important;
